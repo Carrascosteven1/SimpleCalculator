@@ -16,14 +16,15 @@
 </head>
 <body>
   <div class="position"><h1 class="animate__animated animate__zoomInDown">Simple Calculator</h1></div>
-    <!--container box-->
   <div class="container">
-    <!--calculator box-->
     <div class="calculator">
+      <!-- creating calculator with form tag -->
       <form>
+        <!-- user display input -->
         <div class="display">
           <input type="text" name="display">
         </div>
+        <!-- buttons -->
         <div>
           <input type="button" value="AC" onclick="display.value ='' "class="operator" >
           <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1)" class="operator">
@@ -56,6 +57,7 @@
       </form>
     </div>
   </div>
+  <!-- javascript link -->
   <script src="/calculator.js"></script>
 </body>
 </html>
