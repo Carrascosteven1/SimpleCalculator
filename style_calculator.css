@@ -1,3 +1,60 @@
 h1 {
-  color: blue;
+  color: #4d3563be;
+  font-family: 'Kanit', sans-serif;
+}
+
+.container {
+  background: #e3f9ff;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background: #4d3563;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ .calculator form input {
+  border:0;
+  outline: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px #1a1c1c, 5px 5px 15px #8B8D8D;
+  background: transparent;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  margin: 07px;
+} 
+
+form .display {
+  display: flex;
+  justify-content:flex-end;
+  margin: 10px 5px;
+}
+
+form .display input {
+  background-color: white;
+  padding: 5px 10px;
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+
+}
+
+form input.equal {
+  width: 120px;
+}
+form input.operator {
+  color: #54f3f3;
+}
+.position {
+  display: flex;
+  justify-content: center;
 }
